@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Калькулятор</title>
+</head>
+<body onload="calculator.render()">
+    <section class="calculator">
+        <div class="calculator__output">
+            <h2></h2>
+        </div>
+        <div class="calculator__input input">
+            <button class="input__btn input__btn_extrOper none" id="CBtn">C</button>
+            <button class="input__btn input__btn_extrOper" id="ACBtn">AC</button>
+            <button class="input__btn input__btn_extrOper">+/-</button>
+            <button class="input__btn input__btn_extrOper">%</button>
+            <button class="input__btn input__btn_mainOper">/</button>
+            <button class="input__btn input__btn_num">7</button>
+            <button class="input__btn input__btn_num">8</button>
+            <button class="input__btn input__btn_num">9</button>
+            <button class="input__btn input__btn_mainOper">*</button>
+            <button class="input__btn input__btn_num">4</button>
+            <button class="input__btn input__btn_num">5</button>
+            <button class="input__btn input__btn_num">6</button>
+            <button class="input__btn input__btn_mainOper">-</button>
+            <button class="input__btn input__btn_num">1</button>
+            <button class="input__btn input__btn_num">2</button>
+            <button class="input__btn input__btn_num">3</button>
+            <button class="input__btn input__btn_mainOper">+</button>
+            <button class="input__btn input__btn_num zeroBtn">0</button>
+            <button class="input__btn input__btn_num">,</button>
+            <button class="input__btn input__btn_mainOper" id="EqualBtn">=</button>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
